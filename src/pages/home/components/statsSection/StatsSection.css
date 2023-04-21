@@ -1,0 +1,90 @@
+.stats-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 500px;
+
+    background-color: #3D3D3D;
+
+    margin-top: 40px;
+    padding: 10px 15px;
+
+    border-radius: 10px;
+}
+
+.stats-section .type-select-form {
+    margin-top: 50px;
+    align-self: self-start;
+}
+
+.stats-section .type-select-form label {
+    color: white;
+}
+
+.stats-section .type-select-form fieldset {
+    border-width: 2px;
+}
+
+.stats-section #type-select {
+    color: white;
+}
+
+
+.chart-container {
+    flex: 1;
+    max-width: 50%;
+    height: 100%;
+}
+
+.legend-container {
+    height: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.legend-container h2 {
+    margin: 50px 0 20px 0;
+}
+
+.legend-grid {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+
+    gap: 20px
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.legend-item .round-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.legend-item .round-info span {
+    color: white;
+}
+
+.legend-item .raw-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.legend-item .raw-info span {
+    color: white;
+}

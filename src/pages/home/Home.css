@@ -1,0 +1,78 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+
+    padding: 30px 50px;
+    background-color: #262626;
+}
+
+.header-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    width: 100%;
+
+    background-color: #3D3D3D;
+
+    border-radius: 10px;
+}
+
+.header-home nav {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.header-home ul {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+
+    list-style-type: none;
+}
+
+.header-home li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header-home .logo {
+    width: 40px;
+}
+
+.logout {
+    margin-left: 15px;
+}
+
+.main-home {
+    width: 100%;
+}
+
+.main-home h2 {
+    color: white;
+}
+
+.month-date-picker {
+    background-color: #3D3D3D;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.month-date-picker .ant-picker-input input {
+    color: white!important;
+}
+
+.month-date-picker .ant-picker-suffix {
+    color: white
+}

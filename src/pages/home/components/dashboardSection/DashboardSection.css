@@ -1,0 +1,40 @@
+.dashboard-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.dashboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    height: 70px;
+    background-color: #3D3D3D;
+
+    padding: 10px 15px;
+
+    border-radius: 10px;
+}
+
+.dashboard-item span {
+    color: white;
+}
+
+.dashboard-item .icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.dashboard-item .info {
+    display: flex;
+    flex-direction: column;
+}
